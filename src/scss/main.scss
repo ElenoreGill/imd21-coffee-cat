@@ -137,7 +137,7 @@ button {
   color: #22160b;
   letter-spacing: 0.78px;
   text-align: center;
-  padding: 10px 30px;
+  padding: 8px 20px;
 }
 .button {
   display: flex;
@@ -159,15 +159,20 @@ h3 {
   padding: 13px 11px;
   margin-bottom: 42px;
 }
+.cats-bottom-line {
+  margin-bottom: 40px;
+}
 .shop {
   background-color: #e4d7c8;
-  padding: top 40px;
+  padding-top: 40px 0;
+  border-top: 1px solid #22160b;
+  border-bottom: 1px solid #22160b;
 }
 .shop-product {
   padding: 24px 0;
 }
 .shop-text {
-  padding: 60px 0 40px;
+  padding: 60px 0 25px;
 }
 .book-now {
   padding-bottom: 28px;
@@ -177,4 +182,9 @@ h3 {
   letter-spacing: 0.87px;
   text-align: center;
   line-height: 27px;
+}
+.contact {
+  background-color: #e4d7c8;
+  padding-top: 40px 0;
+  border-top: 1px solid #22160b;
 }
