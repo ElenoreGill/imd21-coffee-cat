@@ -60,6 +60,11 @@ h1 {
   font-size: 41px;
   letter-spacing: 1.78px;
 }
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 93px;
+  }
+}
 p {
   font-family: "anca", sans-serif;
   font-weight: 400;
@@ -71,6 +76,7 @@ nav {
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 16px;
+  justify-content: space-between;
 }
 a {
   letter-spacing: 0.82px;
@@ -81,8 +87,12 @@ a {
   text-decoration: none;
   display: inline-block;
   padding-left: 16px;
-  justify-content: space-between;
   display: block;
+}
+@media (min-width: 1024px) {
+  a {
+    font-size: 46px;
+  }
 }
 hr {
   border: 1px solid #1e140a;
@@ -103,6 +113,14 @@ h2 {
   letter-spacing: 0.87px;
   line-height: 27px;
 }
+@media (min-width: 1024px) {
+  .tag-line {
+    font-size: 53px;
+    letter-spacing: 2.3px;
+    text-align: center;
+    line-height: 66px;
+  }
+}
 p {
   padding: 10px 0px 20px;
   text-align: center;
@@ -111,6 +129,32 @@ p {
 .about-us-opening-text {
   padding: 30px 0px 0px;
 }
+@media (min-width: 1024px) {
+  .about-us {
+    font-size: 28px;
+    width: 370px;
+    padding: 0 0 162px 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .about-us-opening-text {
+    font-size: 28px;
+    width: 370px;
+    padding: 62px 0px 0px 15px;
+  }
+}
+@media (min-width: 1024px) {
+  .coffee-shop-interior {
+    max-width: 100%;
+    height: auto;
+    padding-top: 62px;
+  }
+}
+@media (min-width: 1024px) {
+  .menu-wrapper {
+    padding-top: 86px;
+  }
+}
 .menu-section {
   border: 1px solid #1e140a;
   border-radius: 160px 160px 0 0;
@@ -118,16 +162,39 @@ p {
   margin-top: 42px;
   margin-bottom: 21px;
 }
+@media (min-width: 1024px) {
+  .menu-section {
+    margin: 0 80px;
+    border-radius: 405px 405px 0 0;
+  }
+}
 .menu {
   padding-top: 25px;
+}
+@media (min-width: 1024px) {
+  .menu {
+    font-size: 64px;
+    padding: 40px 0;
+  }
 }
 .specials {
   font-size: 23px;
   text-align: center;
   padding: 30px 0px;
 }
+@media (min-width: 1024px) {
+  .specials {
+    font-size: 46px;
+  }
+}
 .menu-food {
   padding: 0px 0px 21px;
+}
+@media (min-width: 1024px) {
+  .menu-food {
+    font-size: 42px;
+    padding-bottom: 106px;
+  }
 }
 button {
   background: #e4d7c8;
@@ -144,6 +211,21 @@ button {
   justify-content: center;
   padding-bottom: 42px;
 }
+@media (min-width: 1024px) {
+  button {
+    font-size: 42px;
+  }
+}
+@media (min-width: 1024px) {
+  .button {
+    padding: 62px 0 85px 0;
+  }
+}
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 64px;
+  }
+}
 .cat-img {
   padding: 30px 0px 20px;
 }
@@ -155,9 +237,23 @@ h3 {
   border: 1px solid #22160b;
   padding: 13px 28px;
 }
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 18px;
+    letter-spacing: 0.78px;
+    line-height: 29px;
+  }
+}
 .linda {
   padding: 13px 11px;
   margin-bottom: 42px;
+}
+@media (min-width: 1024px) {
+  .jean-louis {
+    letter-spacing: 0.78px;
+    line-height: 29px;
+    padding: 13px;
+  }
 }
 .cats-bottom-line {
   margin-bottom: 40px;
@@ -171,11 +267,27 @@ h3 {
 .shop-product {
   padding: 24px 0;
 }
+@media (min-width: 1024px) {
+  .shop-product {
+    padding-left: 111px;
+  }
+}
 .shop-text {
   padding: 60px 0 25px;
 }
+@media (min-width: 1024px) {
+  .shop-text {
+    font-size: 42px;
+    width: 291px;
+  }
+}
 .book-now {
   padding-bottom: 28px;
+}
+@media (min-width: 1024px) {
+  p {
+    font-size: 42px;
+  }
 }
 .cat-flap {
   font-size: 20px;
@@ -183,8 +295,30 @@ h3 {
   text-align: center;
   line-height: 27px;
 }
+@media (min-width: 1024px) {
+  .cat-flap {
+    font-size: 53px;
+    letter-spacing: 2.3px;
+    line-height: 66px;
+    padding-top: 2em;
+  }
+}
+@media (min-width: 1024px) {
+  .cat-flap-img {
+    padding: 88px 0px;
+    padding-left: 55px;
+  }
+}
+.pussy-club-entrance {
+  padding-left: 1em;
+  padding: 77px 20px;
+}
 .contact {
   background-color: #e4d7c8;
   padding-top: 40px 0;
   border-top: 1px solid #22160b;
+  padding-bottom: 73px;
+}
+.contact p {
+  padding: 25 0 0;
 }
