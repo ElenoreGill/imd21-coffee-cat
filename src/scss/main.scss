@@ -321,4 +321,18 @@ h3 {
 }
 .contact p {
   padding: 25 0 0;
+  font-size: 17px;
+}
+span {
+  font-size: 23px;
+}
+@media (min-width: 1024px) {
+  span {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .contact p {
+    font-size: 30px;
+  }
 }
