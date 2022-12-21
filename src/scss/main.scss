@@ -43,10 +43,16 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
-:root {
-  background-color: #e4edd9;
-}
 
+body {
+  background-color: #cb1818;
+}
+.theme2 body {
+  background-color: #a73cfd;
+}
+.theme2 p {
+  color: #ffe900;
+}
 h1,
 h2,
 h3 {
@@ -54,6 +60,16 @@ h3 {
   font-weight: 700;
   font-style: normal;
   color: #22160b;
+}
+.theme2 h1 {
+  color: #ffe900;
+}
+.theme2 h2 {
+  color: #ffe900;
+}
+.theme2 h3 {
+  color: #ffe900;
+  border: 1px solid #ffe900;
 }
 h1 {
   text-align: center;
@@ -78,6 +94,7 @@ nav {
   margin: 16px;
   justify-content: space-between;
 }
+
 a {
   letter-spacing: 0.82px;
   text-align: center;
@@ -89,6 +106,9 @@ a {
   padding-left: 16px;
   display: block;
 }
+.theme2 a {
+  color: #ffe900;
+}
 @media (min-width: 1024px) {
   a {
     font-size: 46px;
@@ -97,6 +117,9 @@ a {
 hr {
   border: 1px solid #1e140a;
   padding: 0px 15.5px;
+}
+.theme2 hr {
+  border: 1px solid #ffe900;
 }
 
 h2 {
@@ -162,6 +185,9 @@ p {
   margin-top: 42px;
   margin-bottom: 21px;
 }
+.theme2 .menu-section {
+  border: 1px solid #ffe900;
+}
 @media (min-width: 1024px) {
   .menu-section {
     margin: 0 80px;
@@ -216,6 +242,11 @@ button {
     font-size: 42px;
   }
 }
+.theme2 button {
+  color: #ffe900;
+  border: 1px solid #ffe900;
+  background-color: #a73cfd;
+}
 @media (min-width: 1024px) {
   .button {
     padding: 62px 0 85px 0;
@@ -237,6 +268,7 @@ h3 {
   border: 1px solid #22160b;
   padding: 13px 28px;
 }
+
 @media (min-width: 1024px) {
   h3 {
     font-size: 18px;
@@ -263,6 +295,10 @@ h3 {
   padding-top: 40px 0;
   border-top: 1px solid #22160b;
   border-bottom: 1px solid #22160b;
+}
+.theme2 .shop {
+  border-top: 1px solid #ffe900;
+  border-bottom: 1px solid #ffe900;
 }
 .shop-product {
   padding: 24px 0;
@@ -318,6 +354,12 @@ h3 {
   padding-top: 40px 0;
   border-top: 1px solid #22160b;
   padding-bottom: 73px;
+}
+.theme2 .contact {
+  background-color: #a73cfd;
+}
+.theme2 .contact {
+  border-top: 1px solid #ffe900;
 }
 .contact p {
   padding: 25 0 0;
