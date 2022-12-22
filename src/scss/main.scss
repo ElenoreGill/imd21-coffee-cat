@@ -45,10 +45,21 @@ video {
 // ==================================== */
 
 body {
-  background-color: #cb1818;
+  background-color: #e4edd9;
 }
-.theme2 body {
-  background-color: #a73cfd;
+.theme2 {
+  animation: animation 3s ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes animation {
+  0% {
+    background-color: #5497ff;
+  }
+  100% {
+    background-color: #fe2ba0;
+  }
 }
 .theme2 p {
   color: #ffe900;
@@ -297,8 +308,7 @@ h3 {
   border-bottom: 1px solid #22160b;
 }
 .theme2 .shop {
-  border-top: 1px solid #ffe900;
-  border-bottom: 1px solid #ffe900;
+  display: none;
 }
 .shop-product {
   padding: 24px 0;
@@ -362,14 +372,15 @@ h3 {
   border-top: 1px solid #ffe900;
 }
 .contact p {
-  padding: 25 0 0;
+  padding: 0;
   font-size: 17px;
 }
-span {
+.contact-info-title {
   font-size: 23px;
+  padding-top: 27px;
 }
 @media (min-width: 1024px) {
-  span {
+  .contact-info-title {
     font-size: 40px;
   }
 }
@@ -377,4 +388,22 @@ span {
   .contact p {
     font-size: 30px;
   }
+}
+.switch-text span:nth-child(2) {
+  display: none;
+}
+.theme2 .switch-text span:first-child {
+  display: none;
+}
+.theme2 .switch-text span:nth-child(2) {
+  display: inline;
+}
+.image-2 {
+  display: none;
+}
+.theme2 .image-2 {
+  display: inline;
+}
+.theme2 .image-1 {
+  display: none;
 }
